@@ -137,7 +137,7 @@ const SurveyComponent = ({ onLogout }: LogoutProps) => {
 						}
 					]
 				},
-				// Pre-Screening Respondent
+				// Consent Page
 				{
 					name: 'consent_page',
 					title: 'Consent Confirmation',
@@ -183,6 +183,7 @@ const SurveyComponent = ({ onLogout }: LogoutProps) => {
 						}
 					]
 				},
+				// Pre-Screening Respondent
 				{
 					name: 'pre-screen-2',
 					title: 'Pre-Screening Questions - Respondent',
